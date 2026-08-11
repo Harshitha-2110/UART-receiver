@@ -1,0 +1,2 @@
+iverilog -o uart_sim uart_receiver.v uart_receiver_tb.v
+vvp uart_sim
